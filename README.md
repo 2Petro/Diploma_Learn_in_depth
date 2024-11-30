@@ -8,7 +8,7 @@ A simple and organized repository to track learning progress by units and lesson
 
 | Unit   | Lesson                          | Status       |
 |--------|---------------------------------|--------------|
-| Unit 1 | Introduction to Embedded system | ✅ Completed |
+| 1 | Introduction to Embedded system | ✅ Completed |
 
 ---
 
