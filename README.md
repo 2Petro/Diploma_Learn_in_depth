@@ -17,6 +17,5 @@ A simple and organized repository to track learning progress by units and lesson
 | Unit/Lesson   | Lesson Name                         | Status       |
 |--------|---------------------------------|--------------|
 | 1 | Introduction to Embedded system | ✅ Completed |
-| 2/1 | Git tutorial | ✅ Completed |
 | 2/2-1 | Git tutorial | ✅ Completed |
 | 2/2-2 | Git tutorial Section | ✅ Completed |
