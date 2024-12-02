@@ -1,3 +1,3 @@
 Status / 
 
-- **Unit 2:** Git tutorial ❓ In progress
+- **Unit 2:** Git tutorial ✅ In progress
