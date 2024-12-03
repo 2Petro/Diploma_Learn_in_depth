@@ -1,11 +1,5 @@
 ![Project Logo](logo.png)
 
-# Learning Progress Tracker
-
-A simple and organized repository to track learning progress by units and lessons.
-
----
-
 ## 🔧 How to Use
 
 1. Clone this repository:
