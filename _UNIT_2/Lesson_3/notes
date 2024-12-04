@@ -1,0 +1,74 @@
+Compiling steps
+1- file.c -> precompiling -> file.i (expand micro)
+2- file.i -> compilation  -> file.asm (assembly file to machine language)
+3- file.s -> assemble     -> file.o (machine language binary file)
+4- file.o + staticlib  -> linking -> file (executable)
+
+
+Toolchains
+1-Native            -] same arch
+2-CC(Corss_compile) -] for different arch
+
+
+arm-gcc -> cross compiler (interview VIP)
+native toolchain produce same binary for same arch (intv VIP)
+
+#######################***********##########################
+
+C BASICS
+
+Variable names
+
+Not allowed!!!!
+5x      -> number
+hey you -> no space allowed
+wassup-u-> no - allowed
+printf  -> not allowed same as c standard
+void    -> not allowed defined type
+g>h     -> no opreators allowed
+
+
+Integar values
+signed - unsigned
+
+usigned int a ;    -> size 4byte ( 0 -> 2^4*8-1)
+short -] 2bytes
+int = long int = long -] 4 but long ( can be 8 depends on platform) int can be 2 
+float -] 4bytes
+double -] 8bytes
+long double 8-10-12-16 depends on platform
+
+
+2's complment (MSB is the sign value)
+binary -> 2's  -> (inv)(!binary) + 0x1
+
+
+float/int -> float domenating -> (int) 5 / (float) 2.0 = (float 2.5)
+however int can only store int types so if it equal to float
+it kicks out the floating point and remian the int value
+
+
+higher type size domninat on lower and also floating point types higher than non floating
+
+prefix&postfix -> same in simple line
+++x,x++;
+but when user in printf/func,if conf
+++x (sum and store new val in x) then do something on x
+x++ (do somthing on x first) then (sum and store new val in x)
+
+
+conditions
+true is 1 
+false is 0
+&& if both conditions true then proceed
+|| at least one is true
+!  true to false and opposite (VIP) used for pointer/variable can check for null or 0 (address and value)
+
+loops
+for(declare ;;); for(declare ;1;); infinite loop condition is 1
+for(declare ;0;); condition is 0 no loop
+same idea with while do while 
+
+
+
+
