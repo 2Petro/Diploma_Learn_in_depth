@@ -1,3 +1,3 @@
 Status / 
 
-- **Unit 2:** C Tricks Section ✅ In progress
+- **Unit 2:** C Tricks Section ✅ Completed 
