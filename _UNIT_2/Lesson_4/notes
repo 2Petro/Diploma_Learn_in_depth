@@ -1,0 +1,76 @@
+make sure size of data type when loop
+unsigned char -> 255 --- 5-4-3-2-1-0-255-244 etc
+
+switch case go for condition then continue beneath if no break
+
+global var is initialized with 0 and local with garbage
+
+check if condition it doesn't mean that given condition will evaluate to 1 everytime check the loop will it may reset it 0
+
+loop the init condition done once then check and doesnt exec the third block from for until first loop is done then do incremnet/decrememt and check again
+
+switch case we can't use float type (compiler error)
+
+switch case only check cases are constants but if can check on variables (if switch case compiler erro)
+
+c98 no init in for loops but possible on c11 standard
+
+overflow happens when excced the range for unisgned result to reset bits to 0 
+
+for signed if we have 2 bytes the overflow occurs in last bit which reserved for sign (1000 0000 0000 0000 ) so its - (max range)
+
+condition done from left to right!! compiler optmize if 0 && x or 1 || x it evaluates to true whatever x is and doesn't excute it and proceed to next code directly
+
+++x + ++x first operation done increment x then incr the other x and sum them every operarion done sepreatly here but its (compiler dependant)
+
+printf depend on compiler order put maybe from right to left as i tried so far
+
+when u use % reminder the sign for result is same as the first value ( -5 % 3 ) then result's sign same as -5
+
+when ~ used it inverts the whole type size bits not only value
+
+octal can be stored in char by "/0x" while x is an octal number
+
+sizeof depend on the output in operation inside if result float will be 8byte or int it will 4 tested
+
+int z = (x++,x++,x++) is same as z = x++ but x will be still incremented 3 times however z = last x++ so z = x since x value used first then incr occur
+
+(++i)++ compiler error
+
+0 && or 1 || done first from left to right 
+
+devision by 0 (runtime error)
+
+default real number constnat is double not float and double is bigger than float
+
+break will make a compiler error !! with loop or switch
+
+u can't put a statment between if and else
+
+&& higher than || so evulates first also >< higher than them
+
+int i = 3,4 non valid syntax but i = 3,4 valid takes 3 but (3,4) it takes last value which is 4
+
+if u initalized an array with exccess elments u get symantic error the excceded element will be stored but may vilolate and crash memory
+
+ptr is pointed to 1 type element (first one) &ptr is pointed to whole area in ram
+
+a "s" is 2 bytes returned with sizeof!! s and \0 but strlen is 1 without \0 
+
+int a[10] defined but with grabage values but int a[10] = {10}; will set only 0 index to 10 and init rest to 0
+
+extern int var -> declare -> int var -> define -> int var = val -> initalize
+
+const int is same as int const but const int perefered in syntax
+
+var cant be size of array even if its const var but work if #define used as compiler replace for a real const value
+
+*(a+index) is same as a[index] same as index[a] same as *(index+a) can be also "abcd"[3]  and 3["abcd"]
+
+int arr[var] not work in ansi c89 but works in c99 takes only value in array
+
+sizeof(x) finish all opreations in x to see what its type if u !value it gives abs 0 different than double 0.00 which is int and considered as 4 byte even if ! (double x) will evaluate to int val 
+
+
+
+
