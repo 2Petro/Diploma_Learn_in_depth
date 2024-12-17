@@ -1,0 +1,21 @@
+0 is /0 in char type (abs) 0 in memory which mean null termination
+
+char a = { 'h' , 'e'} is not null eliminated string garabge values is possible 
+
+gets allow space text but
+
+strcat cat string b to a
+strcpy cpy b to a until first 0 null is found
+strupr,strlwr
+
+array can be modified in functions because of static varible but pointers need to be allocated /string literial is unmutable string
+
+char a the capital litter of a is A which ascii of A - 32 = a
+
+atoi convert string to int but need first element from 0-9 120KG will be 120 but KG120 will be 0
+
+temp[i--] = temp[--i] a i-- done fist then --1 left hand side first
+
+strchr first char occuence but strrchr last occurence for char in string
+
+int arr[2][2]  only a is addr of arrar but a+1 is address of first row + 1

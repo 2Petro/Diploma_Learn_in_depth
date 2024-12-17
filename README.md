@@ -16,4 +16,5 @@
 | 2/1 | Git tutorial | ✅ Completed |
 | 2/2 | Git tutorial Section | ✅ Completed |
 | 2/3 | C Basics | ✅ In Progress | 
-| 2/4 | C Tricks Section | ✅ In Progress | 
+| 2/4 | C Tricks Section | ✅ Completed | 
+| 2/5 | C Array & String | ✅ Completed | 
