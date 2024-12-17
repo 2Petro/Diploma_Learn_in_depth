@@ -4,4 +4,4 @@ Status /
 
 Assignment /
 
-![Project Logo](IMG_20241204_163204.jpg)
+![Project Logo](Screenshot_2024-12-17-21-05-33-382_com.termux.jpg)
