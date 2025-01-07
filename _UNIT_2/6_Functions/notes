@@ -1,0 +1,82 @@
+declare is just extern int define is int x init is int x =5
+
+Function declarition is just type func(type);
+
+c89 ansi error not declared funtion before main
+
+func(int x) copies data into x in stack mem
+
+RAM
+stack        -> local variable
+heap         -> Dynamic allocation ex pointers 
+data segment -> static or global
+
+Storage class in C
+external
+automatic
+static 
+register
+
+auto (local var) inside function limited by block or scope of function only cant be seen with another fubction and dyn alloc at runtime in stack
+
+static local or static global is in data segment
+
+if stack global then visibilty is in only in the current file
+
+if external can be extern to be viewed in other files
+
+the uinitialized global can be put in uinit .bss segment
+
+static local/global is saved in data segment life time until end of program not destoyed its init only once
+
+extern declare global external var but u can init anywhere in code because linking will search for it stored in data segment
+
+extern can be declared many but defined only once!! but static global can have same name of ther var but only limited to the file its in
+
+extern can be done automatically in c99 but not previous establishing a linkage between vars in different c files
+
+register < cache < ram < hardisk (also for access register is the fast!))
+
+register has no addr in ram because it assoicated with cpu we cant use & will throw compiler error
+
+static cant be used with registee both are storage classess!! use one of them please
+
+register int a in function is init with garbage by default same as auto var but not as global var which is 0
+
+auto - register classes life times limited to block oppsite of static and extern which limited by end of program
+
+stack has limited size if function called itself it will do stack until size is full behavior is called stack overflow 
+
+stack return from fuction or currecnt block to the block which executed from until it goes to main
+
+LR used for store addr of progoram counter PC which is pointed to next instruction set in memory to be exec when a function called then pc pointer to the stack of the function first addr then after finish call bx to return the pc and reset to the normal porgram exec
+
+if more than function call we push LR val to stack region in memory of function 1 to save its value then take the PC new val into LR after finishing the function pop the saved value from the stack of the function into LR then call BX to return into PC
+
+void func(void)  still have stack saved in memory at least for the return addr in LR
+
+stack is reversed in memory from top to bottom sp or stack poniter is pointing to the highest addr in mem then when we push sp is - the data tybe size and when we pop we + data type size
+
+int a,b,c then fun(a,b,c); or fun(1,2,3); called we first store the values into registers if from var using LDxxx from mem to general purpose registers or if const val mov instruction used then BL and do function then bx to end and return
+
+we can use _asm_("X") while X is asm instructions for ofc arch and processor
+
+inline function is subustituted as it in the code no stack for but disadventage because of bigger code but adventage in faster code in some cases because no more instrictions for storing arguments or calling etc
+
+function cant be defined in other function may work or not dependa on cc
+
+main call main in loop will do stack overflow not inf loop (vip)
+
+if funtion take var-- and call itself result in infinite loop var stack is lost --var is mandatory here
+
+int function without return it returns 1
+
+array cant passed by value in normal form but it can be in only structure case
+
+return cant be used in conditional operators ? :
+
+we can #define anyname main to used as main function also m##a##i##n is valid syntax
+
+functions (int func) if u not specify int in c99 might give a warning only
+
+sizeof operator can be eveluated at compile or runtime for c89 ansi in compile but c99 can be in runtime deal with variable lenth arrays

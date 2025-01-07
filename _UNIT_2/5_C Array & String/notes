@@ -1,4 +1,4 @@
-0 is /0 in char type (abs) 0 in memory which mean null termination
+ 0 (int)  is /0 in char type (abs) 0 in memory which mean null termination
 
 char a = { 'h' , 'e'} is not null eliminated string garabge values is possible 
 
@@ -19,3 +19,7 @@ temp[i--] = temp[--i] a i-- done fist then --1 left hand side first
 strchr first char occuence but strrchr last occurence for char in string
 
 int arr[2][2]  only a is addr of arrar but a+1 is address of first row + 1
+
+\0 is ascii of abs 0 size of it is 2  but '0' has different ascii
+
+case 1+1 is evaluated to 2 at compile time so its const and valid
