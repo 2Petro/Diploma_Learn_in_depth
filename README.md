@@ -18,4 +18,4 @@
 | 2/3 | C Basics | ✅ In Progress | 
 | 2/4 | C Tricks Section | ✅ Completed | 
 | 2/5 | C Array & String | ✅ Completed | 
-| 2/6 | Functions | ✅ In Completed | 
+| 2/6 | Functions | ✅ Completed | 
